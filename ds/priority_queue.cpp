@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/
+
 // priority_queue는 queue에서 front()로 맨 위의 원소를 조회하는 것과 달리,
 // top()메서들ㄹ 사용해서 맨 앞의 원소를 조회한다.
 void showpq(priority_queue<int> pq) {
